@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hover-link:hover{
+    background: #e1e1e1;
+}
