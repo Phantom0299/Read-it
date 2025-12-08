@@ -7,9 +7,11 @@ import Contact from './pages/Contact'
 import Shop from './pages/Shop'
 import Product from './pages/Product'
 import Categories from './pages/Categories'
-import Account from './pages/Account'
+import Profile from './pages/Profile'
 import './styles/App.css'
 import Footer from './components/Footer'
+import AccountLayout from './layouts/AccountLayout'
+import MyOrders from './pages/MyOrders'
 
 function App() {
 
@@ -24,7 +26,10 @@ function App() {
         <Route path='/shop' element={<Shop />} />
         <Route path='/product' element={<Product />} />
         <Route path='/categories' element={<Categories />} />
-        <Route path='/account' element={<Account />} />
+        <Route path='/account' element={<AccountLayout />}>
+          <Route index element={<Profile />} />
+          <Route path='orders' element={<MyOrders />} />
+        </Route>
       </Routes>
       <Footer />
     </div>

@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+    gap: 2rem;
+}
+
+.side-nav{
+    width: 250px;
+    border-right: 1px solid #1e1e1e;
+    padding-right: 10px;
+    height: 75vh;
+    position: sticky;
+    top: 50px;
+}
+
+.side-nav li{
+    list-style: none;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #1e1e1e;
+}
