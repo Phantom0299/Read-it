@@ -20,9 +20,10 @@
     justify-content: space-between;
     align-items: center;
     width: 30%;
-    background: #cecece;
+    /* background: #cecece; */
+    border: 1px solid #1e1e1e;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .search-bar input{
@@ -30,6 +31,7 @@
     font-size: 1rem;
     background: transparent;
     outline: none;
+    flex-grow: 1;
 }
 
 .logo{
